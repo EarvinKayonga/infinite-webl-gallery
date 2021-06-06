@@ -9,7 +9,7 @@ module.exports = merge(config, {
   mode: 'production',
 
   output: {
-    path: path.join(__dirname, 'InifniteAutoScrollingGallery')
+    path: path.join(__dirname, 'dist')
   },
 
   plugins: [

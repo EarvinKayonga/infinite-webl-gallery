@@ -169,7 +169,7 @@ export default class App {
       camera: this.camera
     })
 
-    this.scroll.last = this.scroll.current
+     this.scroll.last = this.scroll.current
 
     window.requestAnimationFrame(this.update.bind(this))
   }

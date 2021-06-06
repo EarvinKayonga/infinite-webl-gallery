@@ -44,10 +44,6 @@ module.exports = {
       template: path.join(__dirname, 'index.html')
     }),
 
-    new HtmlWebpackPlugin({
-      filename: 'index2.html',
-      template: path.join(__dirname, 'index2.html')
-    }),
 
     new CopyWebpackPlugin([
       {
